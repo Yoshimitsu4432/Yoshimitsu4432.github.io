@@ -1,0 +1,39 @@
+html{
+  font-size: 10px;
+  font-family: 'Open Sans'
+}
+
+h1{
+  font-size: 60px;
+  text-align: center; /*テキストの配置を中央にする*/
+}
+
+p, li{
+  font-size: 16px;
+  line-height: 2; /*文章の上下の間隔を2文字分にする*/
+  letter-spacing: 1px; /*一単語（一文字でなく）ごとの間隔を1pxにする*/
+}
+
+html{
+  background-color: #00539F; /*ページ全体の背景色を濃い青色に設定する*/
+}
+
+body{
+  width: 600px;
+  margin: 0 auto; /*家の庭の上下の幅は0で左右は自動で調整する*/
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px; /*家の中のモノとの上の間隔は0、右は20px、下は20px、左は20px*/
+  border: 5px solid black; /*家の壁（家の中と庭の境界線）の幅は5px、壁の種類は実線、色は黒*/
+}
+
+h1{
+  margin: 0; /*ブラウザは読みやすさ重視なのでデフォルトで広い空間を開けたりする。なので、デフォルトのスタイルに上書きをしている*/
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black; /*文字の影を設定する。一つ目の値pxは水平オフセット、二つ目の値pxは垂直オフセット、3番目の値pxはぼかしの半径、四番目は影の色を設定している*/
+}
+
+img{
+  display: block; /*画像をブロックレベルの動作をできるようにする（画像はインライン要素なので、そのままだとmarginを適用できないため）*/
+  margin: 0 auto; /*ブロック要素としての動作できるようになった画像を、上下0、左右自動調整で中央にもってくる*/
+}
